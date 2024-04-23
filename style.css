@@ -1,0 +1,110 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Chewy&display=swap");
+img {
+  width: 400px;
+  height: 300px;
+  padding: 30px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: #e6d7bd7a;
+  width: 200%; /* Ajusta a largura para ocupar 90% da largura da tela */
+  max-width: fit-content; /* Define uma largura máxima */
+  padding: 20px;
+  border-radius: 10px;
+  height: auto; /* Define a altura automática */
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    flex-direction: row; /* Altera para linha em telas maiores */
+    justify-content: space-between; /* Espaço entre os itens */
+    height: auto; /* Altura automática */
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column; /* Alinha os itens verticalmente */
+  margin-left: 20px; /* Adiciona espaço entre a imagem e o formulário */
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  background-color: #eee2cc;
+  justify-content: center;
+  align-items: center;
+}
+form label,
+form input,
+form button,
+form a {
+  margin-bottom: 10px; /* Adiciona espaço entre os elementos */
+}
+
+h1 {
+  text-align: center; /* Centraliza o texto */
+}
+
+::placeholder {
+  padding: 10px;
+}
+a {
+  text-align: end; /* Centraliza o texto */
+  text-decoration: none;
+  font-size: small;
+  color: black;
+}
+
+input {
+  width: 280px;
+  height: 40px;
+  border: 1px solid;
+  border-radius: 5px;
+  padding-inline-start: 10px;
+  background-color: rgba(219, 219, 219, 0.267);
+  outline-color: rgba(0, 0, 0, 0.404);
+}
+label {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: small;
+}
+h1 {
+  font-family: "Chewy", system-ui;
+  font-size: 35px;
+}
+.googleButton {
+  background-color: #eee2cc;
+  border: 2px;
+  width: 290px;
+  height: 40px;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, 0.192);
+}
+.loginButton {
+  background-color: black;
+  border: 2px;
+  width: 295px;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  font-family: "Chewy", system-ui;
+  font-size: 16px;
+}
+.SignUpButton {
+  background-color: rgb(0, 0, 0);
+  border: 2px;
+  width: 295px;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  font-family: "Chewy", system-ui;
+  font-size: 16px;
+}
