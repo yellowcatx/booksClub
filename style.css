@@ -4,6 +4,7 @@
 img {
   width: 350px;
   height: 250px;
+  margin-top: 20px;
 }
 .content {
   display: flex;
@@ -26,7 +27,8 @@ img {
 form {
   display: flex;
   flex-direction: column; /* Alinha os itens verticalmente */
-  padding: 1px; /* Adiciona espaço entre a imagem e o formulário */
+  padding: 1px;
+  margin-bottom: 20px;/* Adiciona espaço entre a imagem e o formulário */
 }
 
 body,
