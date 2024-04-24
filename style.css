@@ -4,14 +4,15 @@
 img {
   width: 350px;
   height: 250px;
-  margin-top: 20px;
+  margin-top: auto;
+  margin-left: auto;
 }
 .content {
   display: flex;
   flex-direction: column;
   background-color: #e6d7bd7a;
   max-width: 100%; /* Define uma largura máxima de 90% da largura da tela */
-  width: 400px;
+  width: auto;
   border-radius: 10px;
   align-items: center; 
 }
@@ -28,7 +29,9 @@ form {
   display: flex;
   flex-direction: column; /* Alinha os itens verticalmente */
   padding: 1px;
-  margin-bottom: 20px;/* Adiciona espaço entre a imagem e o formulário */
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;/* Adiciona espaço entre a imagem e o formulário */
 }
 
 body,
