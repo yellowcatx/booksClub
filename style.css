@@ -10,7 +10,7 @@ img {
   display: flex;
   flex-direction: column;
   background-color: #e6d7bd7a;
-  max-width: 90%; /* Define uma largura máxima de 90% da largura da tela */
+  max-width: 100%; /* Define uma largura máxima de 90% da largura da tela */
   width: auto; /* Remove a largura fixa para que ela se ajuste ao conteúdo */
   padding: 1.5rem; /* Use unidades relativas para o preenchimento */
   border-radius: 10px;
