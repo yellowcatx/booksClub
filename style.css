@@ -10,12 +10,13 @@ img {
   display: flex;
   flex-direction: column;
   background-color: #e6d7bd7a;
-  width: 200%; /* Ajusta a largura para ocupar 90% da largura da tela */
-  max-width: fit-content; /* Define uma largura máxima */
-  padding: 20px;
+  max-width: 90%; /* Define uma largura máxima de 90% da largura da tela */
+  width: auto; /* Remove a largura fixa para que ela se ajuste ao conteúdo */
+  padding: 1.5rem; /* Use unidades relativas para o preenchimento */
   border-radius: 10px;
   height: auto; /* Define a altura automática */
 }
+
 
 @media screen and (min-width: 768px) {
   .content {
@@ -54,8 +55,7 @@ h1 {
 ::placeholder {
   padding: 10px;
 }
-a {
-  text-align: end; /* Centraliza o texto */
+a { /* Centraliza o texto */
   text-decoration: none;
   font-size: small;
   color: black;
