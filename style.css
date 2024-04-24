@@ -2,7 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Chewy&display=swap");
 img {
-  width: 400px;
+  width: 350px;
   height: 300px;
   padding: 30px;
 }
@@ -14,7 +14,8 @@ img {
   width: auto; /* Remove a largura fixa para que ela se ajuste ao conteúdo */
   padding: 1.5rem; /* Use unidades relativas para o preenchimento */
   border-radius: 10px;
-  height: auto; /* Define a altura automática */
+  height: auto; 
+  text-align: center; align-items: center;/* Define a altura automática */
 }
 
 
