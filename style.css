@@ -14,9 +14,8 @@ img {
   flex-direction: column;
   background-color: #e6d7bd7a;
   max-width: 200%;
-  border-radius: 15px;
+  border-radius: 30px;
   align-items: center;
-  box-shadow: 3px 3px 2px rgba(175, 175, 175, 0.3);
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 20px;
