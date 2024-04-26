@@ -1,18 +1,24 @@
+/** @format */
 
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Chewy&display=swap");
-img {
+section {
+  align-items: center;
+  flex-direction: column;
+}
+.gm {
   width: 400px;
   height: 450px;
 }
 .content {
   display: flex;
-  flex-direction:column;
-  background-color: #d5f7ab;
+  flex-direction: column;
+  background-color: #ffdac7;
   max-width: 180%;
   border-radius: 40px;
   align-items: center;
   height: 860px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 1px;
 }
 
 @media screen and (min-width: 768px) {
@@ -47,64 +53,86 @@ form a {
 }
 
 h1 {
-  text-align: center;/* Centraliza o texto */
+  text-align: center;
+  color: #ffefdf;
 }
 
 ::placeholder {
   padding: 10px;
 }
 a {
-  /* Centraliza o texto */
   text-decoration: none;
   font-size: small;
   color: black;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Chivo Mono", monospace;
+  font-weight: bold;
 }
 
 input {
-  width: 280px;
+  width: 250px;
   height: 40px;
   border: 1px solid;
   border-radius: 5px;
-  padding-inline-start: 10px;
-  background-color: rgba(147, 151, 151, 0.267);
-  outline-color: rgba(0, 0, 0, 0.404);
+  background-color: rgba(144, 131, 145, 0.212);
+  outline-color: transparent;
+  border-color: transparent;
 }
 label {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Chivo Mono", monospace;
+  font-weight: bold;
   font-size: small;
+  color: rgba(0, 0, 0, 0.562);
 }
 h1 {
-  font-family: "Chewy", system-ui;
-  font-size: 35px;
+  font-family: "Chivo Mono", monospace;
+  font-size: 40px;
+  color: black;
 }
 .googleButton {
   background-color: #eee2cc;
-  border: 2px;
-  width: 290px;
-  height: 40px;
-  border-radius: 5px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
   color: rgb(0, 0, 0);
   border: 1px solid;
   border-color: rgba(0, 0, 0, 0.192);
 }
 .loginButton {
-  background-color: black;
-  border: 2px;
-  width: 295px;
+  background-color: #ffefdf;
+  outline-color: black;
+  width: 90px;
   height: 40px;
-  border-radius: 5px;
+  border-radius: 1ex;
   color: white;
-  font-family: "Chewy", system-ui;
-  font-size: 16px;
+  font-family: "Chivo Mono", monospace;
+  color: black;
+  font-size: 14px;
+  align-self: center;
+  margin-top: 24px;
 }
-.SignUpButton {
-  background-color: rgb(0, 0, 0);
-  border: 2px;
-  width: 295px;
-  height: 40px;
-  border-radius: 5px;
-  color: white;
-  font-family: "Chewy", system-ui;
-  font-size: 16px;
+.user {
+  background-image: url("assets/person.svg");
+  background-repeat: no-repeat;
+  position: relative;
+  background-position-x: left;
+  padding-left: 30px;
+  background-position-y: 9px;
+  background-position: 10px;
+  padding-inline-start: 40px;
+}
+.password {
+  background-image: url("assets/locker.svg");
+  background-repeat: no-repeat;
+  position: relative;
+  background-position-x: left;
+  padding-left: 30px;
+  background-position-y: 9px;
+  background-position: 10px;
+  padding-inline-start: 40px;
+}
+.register-position {
+  align-self: flex-end;
+  margin-right: 15px;
+  margin-top: 10px;
+  text-decoration-line: underline;
 }
