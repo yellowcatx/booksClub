@@ -17,7 +17,7 @@ There are no special prerequisites to view or modify this project. Simply have a
 1. Download or clone this repository to your computer.
 2. Open the `index.html` file in your web browser.
 3. You will see the Book's Club login page. Enter your username and password to access the site.
-4. Alternatively, you can visit the live version of the login page [here](https://yourwebsite.com).
+4. Alternatively, you can visit the live version of the login page [here](https://yellowcatx.github.io/booksClub/).
 
 
 ## Project Structure
