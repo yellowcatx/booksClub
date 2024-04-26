@@ -5,7 +5,8 @@ This is a simple project of a login page for Book's Club, developed using HTML a
 ## Description
 
 This project consists of a basic login page for Book's Club, a fictional book club website. The page allows users to input their username and password to access the site.
-![Exemplo de imagem](images/example.png)
+![Exemplo de imagem](https://github.com/yellowcatx/booksClub/blob/615201de59079a91c46731f1b950b650a029d016/Book's%20Club%20.png)
+![Exemplo de imagem](https://github.com/yellowcatx/booksClub/blob/615201de59079a91c46731f1b950b650a029d016/Book's%20Club%20.png)
 
 
 ## Prerequisites
