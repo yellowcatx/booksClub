@@ -1,23 +1,19 @@
-/** @format */
+
 
 @import url("https://fonts.googleapis.com/css2?family=Chewy&display=swap");
 img {
-  width: 350px;
-  height: 250px;
-  padding: 5px;
-  margin-left: 20px;
+  width: 500px;
+  height: 450px;
   margin-bottom: 20px;
   margin-top: 50px;
 }
 .content {
   display: flex;
   flex-direction: column;
-  background-color: #e6d7bd7a;
+  background-color: #d5f7ab;
   max-width: 200%;
   border-radius: 30px;
   align-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
   margin-left: 20px;
 }
 
@@ -42,7 +38,7 @@ html {
   height: 100%;
   margin: 0;
   display: flex;
-  background-color: #eee2cc;
+  background-color: #f3f2d6;
   justify-content: center;
   align-items: center;
 }
@@ -66,6 +62,7 @@ a {
   text-decoration: none;
   font-size: small;
   color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 input {
@@ -74,7 +71,7 @@ input {
   border: 1px solid;
   border-radius: 5px;
   padding-inline-start: 10px;
-  background-color: rgba(219, 219, 219, 0.267);
+  background-color: rgba(147, 151, 151, 0.267);
   outline-color: rgba(0, 0, 0, 0.404);
 }
 label {

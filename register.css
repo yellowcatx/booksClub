@@ -1,0 +1,42 @@
+/** @format */
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  background-color: #eee2cc;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+}
+form {
+  width: 300px;
+  margin: 20px auto;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+.termos {
+  margin-top: 10px;
+  display: inline-flex;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.checkbox-style {
+  width: 20px;
+  height: 15px;
+}
+a{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
