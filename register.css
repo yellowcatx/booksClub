@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
 .content {
-  width: 500px;
+  width: 400px;
   display: flex;
   flex-direction: column;
   background-color: #ffdac7;
@@ -16,7 +16,7 @@
 @media screen and (min-width: 768px) {
   .content {
     flex-direction: row; /* Altera para linha em telas maiores */
-    height: 700px;
+    height: 650px;
   }
 }
 body,
